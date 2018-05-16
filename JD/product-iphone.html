@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>【AppleiPhone X】</title>
+<style>
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+ font-size: 12px;
+ font-family: "微软雅黑";
+}
+a {
+ text-decoration: none;
+ color: #666;
+}
+.shortcut{
+	height:30px;
+	background-color:#f5f5f5;
+}
+.w{
+	width:1210px;
+	height:30px;
+	margin:0 auto;
+}
+.shortcut .w .fr{
+	float:right;
+	margin-right:300px;
+}
+.shortcut .w .fr li{
+	display:block;
+	padding: 0 6px;
+	line-height: 30px;
+	float:left;
+}
+.shortcut .w .fr li.spacer {
+ width: 1px;
+ height: 10px;
+ padding: 0;   /*li设置了padding撑开，line不用撑开，把padding设为0*/
+ background-color: #cccccc; 
+ margin: 11px 6px 0 6px;
+}
+.shortcut .w .fr li a.red{
+	color:red;
+}
+.shortcut .w .fr li a:hover{
+	color:red;
+}
+
+.w{
+	width:1210px;
+	height:100px;
+}
+.w .logo{
+	width:270px;
+	height:60px;
+	padding:20px 92px 20px 0px;
+	float:left;
+}
+.w .search{
+	width:538px;
+	height:40px;
+	float:left;
+	margin-top:25px;
+}
+.w .search .form .text{
+	width:452px;
+	height:30px;
+	border:2px solid #f10215;
+	float: left;
+}
+.w .search .form .btn{
+	height:34px;
+	width:78px;
+	background-color: #f10215;
+	font-size:16px;
+	font-family: "微软雅黑";
+	color:#FFFFFF;
+}
+.w .search .form input{
+	outline: none;
+	vertical-align: middle;
+	border: 0;
+}
+.w .shopcart{
+	height:34px;
+	width:139px;
+	border:1px solid #DCDCDC;
+	background-color:#F5F5F5;
+	margin-top:25px;
+	text-align: center;
+	float:right;
+	position: relative;
+}
+.w .shopcart span{
+	line-height: 34px;
+	font-family: "微软雅黑";
+	color:#808080;
+}
+.w .shopcart .count{
+	padding:0px 2px 0px 2px;
+	font-style: normal;
+	color:#fff;
+	border-radius: 50%;
+	background-color: #f10215;
+	margin-bottom:10px;
+	position: absolute;
+	top: 3px;
+}
+
+.crumb-wrap{
+	border-top:3px solid #f10215;
+	margin-top:20px;
+	height:41px;
+	background-color:#f5f5f5;
+}
+
+.show{
+	height:583px;
+	width:1210px;
+	margin:0 auto;
+}
+.show .product-intro{
+	height:583px;
+	width:1210px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.show .product-intro .preview{
+	width:450px;
+	width:450px;
+	overflow:hidden;
+	border:1px solid #F5F5F5;
+	float:left;
+}
+.show .product-intro .itemInfo {
+	width:738px;
+	height:528px;
+	float:right;
+}
+.show .product-intro .itemInfo .sku-name{
+	height:38px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:38px;
+	padding-left:40px;
+}
+.show .product-intro .itemInfo .summary-first{
+	height:48px;
+	background-color:#F5F5F5;
+}
+.show .product-intro .itemInfo .summary-first .f1{
+	font-size:13px;
+	line-height:48px;
+	margin-left:15px;
+	color:#808080;
+	font-family:"宋体";
+}
+.show .product-intro .itemInfo .summary-first .f2{
+	font-size:15px;
+	color:red;
+}
+.show .product-intro .itemInfo .summary-first .f3{
+	font-size:22px;
+	color:red;
+}
+.show .product-intro .itemInfo .p-choose-wrap{
+	height:413px;
+	margin-top:40px;
+	border-top:1px dashed #DCDCDC;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs{
+	margin-top:15px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-1 {
+	margin-bottom:3px;
+	height:48px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-1 .f1{
+	font-size:13px;
+	color:#808080;
+	width:58px;
+	height:40px;
+	font-family:"宋体";
+	margin-left:15px;
+	line-height:40px;
+	float:left;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-1 .f2{
+	font-size:13px;
+	height:42px;
+	width:80px;
+	border: 1px solid #e3393c;
+	line-height:40px;
+	text-align:center;
+	background-color:#F5F5F5;
+	float:left;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-1 .f3{
+	font-size:13px;
+	height:42px;
+	width:80px;
+	border: 1px solid #DCDCDC;
+	line-height:40px;
+	text-align:center;
+	background-color:#F5F5F5;
+	float:left;
+	margin-left:10px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-2{
+	height:38px;
+	margin-bottom:3px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-2 .f1{
+	float:left;
+	font-size:13px;
+	color:#808080;
+	width:58px;
+	height:32px;
+	font-family:"宋体";
+	margin-left:15px;
+	line-height:32px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-2 .f2{
+	float:left;
+	font-size:13px;
+	height:32px;
+	width:62px;
+	border: 1px solid #e3393c;
+	line-height:32px;
+	text-align:center;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-2 .f3{
+	font-size:13px;
+	height:32px;
+	width:86px;
+	border: 1px solid #DCDCDC;
+	line-height:32px;
+	text-align:center;
+	float:left;
+	margin-left:10px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-3{
+	height:38px;
+	margin-bottom:3px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-3 .f1{
+	float:left;
+	font-size:13px;
+	color:#808080;
+	width:32px;
+	height:32px;
+	font-family:"宋体";
+	margin-left:15px;
+	line-height:32px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-3 .f2{
+	float:left;
+	font-size:13px;
+	height:32px;
+	width:55px;
+	border: 1px solid #e3393c;
+	line-height:32px;
+	text-align:center;
+	margin-left:26px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-3 .f3{
+	font-size:13px;
+	height:32px;
+	width:62px;
+	border: 1px solid #DCDCDC;
+	line-height:32px;
+	text-align:center;
+	float:left;
+	margin-left:10px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-4{
+	height:38px;
+	margin-bottom:3px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-4 .f1{
+	float:left;
+	font-size:13px;
+	color:#808080;
+	width:58px;
+	height:32px;
+	font-family:"宋体";
+	margin-left:15px;
+	line-height:32px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-4 .f2{
+	float:left;
+	font-size:13px;
+	height:32px;
+	width:74px;
+	border: 1px solid #e3393c;
+	line-height:32px;
+	text-align:center;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs .choose-attr-4 .f3{
+	float:left;
+	font-size:13px;
+	height:32px;
+	width:86px;
+	border: 1px solid #DCDCDC;
+	line-height:32px;
+	text-align:center;
+	margin-left:10px;
+}
+.choose-btns{
+	border-top:1px dashed #DCDCDC;
+	padding-top:15px;
+	height:48px;
+}
+.choose-btns a{
+	display:block;
+	width:142px;
+	height:46px;
+	background-color:red;
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+	line-height:46px;
+	color:#ffffff;
+	float:left;
+	margin-left:20px;
+	margin-right:20px;
+}
+.show .product-intro .itemInfo .p-choose-wrap .choose-attrs div.f3:hover{
+	border:1px solid #e3393c;
+}
+
+</style>
+</head>
+<body>
+<div class="shortcut">
+	<div class="w">
+		<ul class="fr">
+			<li class="fore1">
+			<a href="login.html">你好，请登录</a>
+			<a href="register.html" class="red">免费注册</a>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore2">
+			<a href="#">我的订单</a>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore3">
+			<a href="product-management.html">卖家入口</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="w">
+	<div class="logo">
+		<img src="images/product-iphone-1.jpg">
+	</div>
+	<div class="search">
+		<div class="form">
+			<input type="text" name="case" class="text" placeholder="请输入关键字">
+			<input type="button" class="btn" name="seek" value="搜索"/>
+		</div>
+	</div>
+	<div class="shopcart">
+		<span>我的购物车</span>
+		<i class="count">0</i>
+	</div>
+</div>
+<div class="crumb-wrap">
+</div>
+<div class="show">
+	<div class="product-intro">
+		<div class="preview">
+			<img src="images/phone.jpg" width="450" height="450" style="display: block">
+		</div>
+		<div class="itemInfo">
+			<div class="sku-name">
+				<span>Apple iPhone X (A1865) 64GB 银色 移动联通电信4G手机</span>
+			</div>
+			<div class="summary-first">
+				<span class="f1">京 东 价</span>
+				<span class="f2">￥</span>
+				<span class="f3">8388.00</span>
+			</div>
+			<div class="p-choose-wrap">
+				<div class="choose-attrs">
+					<div class="choose-attr-1">
+						<div class="f1">
+							选择颜色
+						</div>
+						<div class="f2">
+						<a href="#">银色</a>
+						</div>
+						<div class="f3">
+						<a href="#">深空灰色</a>
+						</div>
+					</div>
+					<div class="choose-attr-2">
+						<div class="f1">
+							选择版本
+						</div>
+						<div class="f2">
+						<a href="#">公开版</a>
+						</div>
+						<div class="f3">
+						<a href="#">保险套餐版</a>
+						</div>
+					</div>
+					<div class="choose-attr-3">
+						<div class="f1">
+							内存
+						</div>
+						<div class="f2">
+						<a href="#">64GB</a>
+						</div>
+						<div class="f3">
+						<a href="#">256GB</a>
+						</div>
+					</div>
+					<div class="choose-attr-4">
+						<div class="f1">
+							购买方式
+						</div>
+						<div class="f2">
+						<a href="#">官方标配</a>
+						</div>
+						<div class="f3">
+						<a href="#">移动优惠购</a>
+						</div>
+						<div class="f3">
+						<a href="#">联通优惠购</a>
+						</div>
+						<div class="f3">
+						<a href="#">电信优惠购</a>
+						</div>
+					</div>
+				</div>
+				<div class="choose-btns">
+					<a href="#">立即购买</a>
+					<a href="#">加入购物车</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

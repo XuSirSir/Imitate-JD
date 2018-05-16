@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>京东-欢迎登陆</title>
+<style>
+#logo{
+	position:absolute;
+	left:465px;
+}
+#logo-font{
+	position:absolute;
+	left:180px;
+	top:22px;
+}
+.login-banner{
+	width:1980px;
+	height:475px;
+	position:absolute;
+	top:120px;
+}
+.logo-form{
+	margin-top:160px;
+	margin-left:1200px;
+}
+
+</style>
+</head>
+<body>
+<div id="logo">
+	<a href="index.html"><img src="images/logo-201305-b.png" width="170" height="60"></a>
+	<div id="logo-font">
+		<img src="images/logo-font.png" width="110" height="40">
+	</div>
+</div>
+<div class="login-banner" style="background-color:#DCDCDC">
+<div class="logo-form">
+<form action='login.php' method='post'>
+	<p>账号：<input type='text' name='user' /></p>
+	<p>密码：<input type='password' name='passwd' /></p>
+	<tr><td colspan='2' class="button center">&nbsp;&nbsp;&nbsp;<input type='submit' value='登陆'/>
+	&nbsp;&nbsp;&nbsp;  <input type='button' value='注册' onclick="location.href='register.html'"/></td></tr>
+</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+/*头部导航部分开始*/
+.shortcut {
+ height: 31px;
+ background-color: #e3e4e5;
+ /*border-bottom: 1px #ddd solid;*/
+}
+.shortcut .w{
+	height:30px;
+}
+.shortcut .w .fr{
+	float:right;
+	padding:0 320px 0 0;
+}
+.shortcut .w .fr li {
+ padding: 0 6px;
+ line-height: 30px;
+ float:left;
+}
+.shortcut .w .fr li a.red {
+ color: red;
+}
+.shortcut .w .fr li.spacer {
+ width: 1px;
+ height: 10px;
+ padding: 0;   /*li设置了padding撑开，line不用撑开，把padding设为0*/
+ background-color: #cccccc; 
+ margin: 11px 6px 0 6px;
+}
+/*头部导航部分结束*/
+/*头部搜索区域开始*/
+.header{
+	height:140px;
+}
+.header .w {
+ position: relative;
+ height:140px;
+}
+.header .w .logo {
+ /*float: left;*/
+ position: absolute;
+ top: -32px;
+ vertical-align: middle;
+ /*margin-top: -30px;*/
+ /*box-shadow: 0px 0px 10px #ccc;*/
+}
+.header .w .search .form {
+ width: 550px;
+ height: 35px;
+ float: left;
+ margin-top: 25px;
+ margin-left: 320px;
+ position: relative;
+}
+.header .w .search .form .text {
+ width: 498px;
+ height: 33px;
+  float: left;
+ border: 1px #f10215 solid;
+ text-indent: 4px;   /*input框里的字体缩进*/
+}
+.header .w .search .form .btn {
+ width: 50px;
+ height: 35px;
+ background-color: #f10215;
+ /*float: left;*/
+}
+.header .w .shopcart {
+ float: left;
+ width: 188px;
+ height: 33px;
+ border: 1px #e3e4e5 solid;
+ color: #f10215;
+ background-color: #fff;
+ text-align: center;
+ font-size: 12px;
+ line-height: 33px;
+ margin-top: 25px;
+ margin-left: 35px;
+ position: relative;
+}
+.header .w .shopcart em{
+ display:block;
+ font-style: normal;
+  width: 14px;
+ height: 14px;
+ color: #fff;
+ line-height: 14px;
+ text-align: center;
+  border-radius: 50%;
+ background-color: #f10215;
+ position: absolute;
+ top: 5px;
+ right: 34px;
+}
+/*热词搜索样式*/
+.header .w .hotwords{
+	float:left;
+	width:550px;
+	height:20px;
+	margin-left: 320px;
+	margin-top: 5px;
+}
+.header .w .hotwords a.red {
+ color: red;
+}
+.header .w .hotwords a{
+ float: left;
+ font: 12px/20px "微软雅黑";
+ margin-right: 10px;
+}
+.header .w .hotwords a:hover {
+ color: red;
+}
+/*主导航栏样式*/
+.header .w .navitems{
+	float:left;
+	margin-left: 230px;
+	margin-top: 15px;
+}
+.header .w .navitems ul{
+	float:left;
+	overflow:hidden;
+}
+.header .w .navitems ul li{
+ float: left;
+ font: 700 16px/40px 微软雅黑;
+ margin-right:30px;
+}
+.header .w .navitems .spacer{
+ float:left;
+ width: 1px;
+ height: 10px;
+ background-color: #ccc;
+ margin: 3px 20px 0 -10px;
+}
+.header .w .navitems ul li a {
+ color: #555;
+}
+.header .w .navitems ul li a:hover {
+ color: red;
+}

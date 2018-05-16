@@ -1,0 +1,322 @@
+.fs{
+	height:480px;
+}
+.fs .w{
+	height:480px;
+}
+/*左侧导航列表样式*/
+.fs .w .fs_col1 .j_cate{
+	float: left;
+	width:190px;
+	height:480px;
+	background-color: #6e6568;
+}
+.fs .w .fs_col1 .j_cate ul {
+	margin-top: 16px;
+}
+.fs .w .fs_col1 .j_cate ul li {
+ height: 30px;
+ font: 12px/30px "微软雅黑";
+ color: #fff;
+ padding-left: 12px;
+}
+.fs .w .fs_col1 .j_cate ul li:hover {
+ background-color: rgba(255,255,255,0.3);
+}
+.fs .w .fs_col1 .j_cate ul li a {
+ color: #fff;
+}
+.fs .w .fs_col1 .j_cate ul li a:hover {
+ color: red;
+}
+/*中间轮播区域样式*/
+.fs .w .fs_col2{
+	width:790px;
+	height:480px;
+	margin:0 10px;
+	float:left;
+}
+.fs .w .fs_col2 #box{
+	height:340px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position:relative;
+}
+.fs .w .fs_col2 #box #list{
+ width: 188px;
+ height: 20px;
+ padding: 0 9px;
+ border-radius: 20px;
+ background-color: rgba(255,255,255,0.5);
+ position: absolute;
+ left: 50%;
+ bottom: 20px;
+ margin-left: -91px;
+}
+.fs .w .fs_col2 #box #list #ll{
+	margin-left:12px;
+}
+.fs .w .fs_col2 #box #list .li{
+ float: left;
+ width: 12px;
+ height: 12px;
+ background-color: #fff;
+ border-radius: 50%;
+ margin-right: 10px;
+ margin-top:4px;
+}
+.fs .w .fs_col2 #box #leftbt{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 0px;
+    top: 130px;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 40px;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    /*不显示*/
+    display: none;
+}
+.fs .w .fs_col2 #box #rightbt{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    right: 0px;
+    top: 130px;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 40px;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    display: none;
+}
+.fs .w .fs_col2 .box_img .fr{
+	float:right;
+}
+/*右侧生活列表样式*/
+.fs .w .fs_col3{
+	width:190px;
+	height:480px;
+	background-color:#fff;
+	float:left;
+	position:relative;
+}
+.fs .w .fs_col3 .J_user{
+	width:190px;
+	height:116px;
+	float:left;
+}
+.fs .w .fs_col3 .gao{
+	width:160px;
+	height:75px;
+	margin:0px auto;
+	position:relative
+}
+.fs .w .fs_col3 .J_user .gao .user_info{
+	float:left;
+	margin:5px 5px 5px 5px;
+	position:absolute;
+	top:12px;
+	bottom:13px;
+}
+.fs .w .fs_col3 .J_user  .gao .user_info_show{
+	float:right;
+	width:106px;
+	height:40px;
+	margin-top:17px;
+}
+.fs .w .fs_col3 .J_user  .gao .user_info_show p{
+	height:18px;
+	font: 11px/17px "微软雅黑";
+	color: #666;
+}
+.fs .w .fs_col3 .J_user .gao  .user_info_show a{
+	float: left;  
+	font: 11px/17px "微软雅黑";
+	color: #666;
+	margin-right: 9px;
+	margin-top:4px;
+}
+.fs .w .fs_col3 .J_user .gao .user_info_show a:hover {
+	color: red;
+}
+.fs .w .fs_col3 .J_user .user_profit{
+	width:170px;
+	float:left;
+	position:absolute;
+	left:15px;
+}
+.fs .w .fs_col3 .J_user .user_profit a{
+	float:left;
+	width:70px;
+	display: block;
+	border: 2px #e01222 solid;
+	font: 11px/20px "微软雅黑";
+	color: #e01222;
+	background-color: #fff;
+	text-align: center;
+	margin: 0 5px;
+}
+.fs .w .fs_col3 .J_user .user_info_show a:hover{
+	color: red;
+}
+.fs .w .fs_col3 .J_user .user_profit a:hover{
+	color: #fff;
+	background-color: #e01222;
+}
+/*中间促销部分样式*/
+.fs .w .fs_col3 .news{
+	width:190px;
+	height:153px;
+	float:left;
+	border-top: 1px #e6e6e6 solid;
+}
+.fs .w .fs_col3 .news .mod_tab{
+	width:160px;
+	height:147px;
+	margin:0 auto;
+}
+.fs .w .fs_col3 .news .mod_tab .mod_tab_head{
+	width:160px;
+	margin-top:7px;
+	border-bottom: 1px #e6e6e6 solid;
+	padding-bottom: 2px;
+}
+.fs .w .fs_col3 .news .mod_tab .mod_tab_head .sale{
+	border-right: 1px #e6e6e6 solid;
+	padding-right: 13px;
+}
+.fs .w .fs_col3 .news .mod_tab .mod_tab_head .gonggao{
+	margin-left: 15px;
+}
+.fs .w .fs_col3 .news .mod_tab .mod_tab_head .more{
+	float: right;
+}
+.fs .w .fs_col3 .news .mod_tab .mod_tob_content{
+	width:160px;
+	height:120px;
+}
+.fs .w .fs_col3 .news .mod_tab .mod_tob_content .mod_tob_content_item{
+	width:160px;
+	height:96px;
+	font: 11px/23px "微软雅黑";
+	color: #666;
+	float: left;
+	margin-top: 12px;
+}
+.fs .w .fs_col3 .news .mod_tab .mod_tob_content .mod_tob_content_item a:hover{
+	color: red;
+}
+/*下边生活服务部分样式*/
+.fs .w .fs_col3 .service{
+	width:190px;
+	height:210px;
+	float:left;
+}
+.fs .w .fs_col3 .service .service_entry{
+	width:190px;
+	height:210px;
+}
+.fs .w .fs_col3 .service .service_entry ul{
+	width:192px;
+	height:210px;
+}
+.fs .w .fs_col3 .service .service_entry ul li{
+	float:left;
+	width:47px;
+	height:69px;
+	text-align:center;
+	line-height: 69px;
+	border-top: 1px #e6e6e6 solid;
+	border-right: 1px #e6e6e6 solid;
+	
+}
+.fs .w .fs_col3 .service .service_entry ul li a:hover{
+	color: red;
+}
+/*秒杀部分样式*/
+.J_f{
+	margin-top:10px;
+	margin-bottom:30px;
+}
+.J_f .w {
+	height:305px;
+}
+.J_f .w .box_hd{
+	width:1190px;
+	height:55px;
+	float:left;
+	background-color:red;
+}
+.J_f .w .box_hd .box_hd_icon h3{
+	float:left;
+	font: 29px/49px "宋体";
+	color: #fff;
+	padding-left:100px;
+}
+.J_f .w .box_hd .box_hd_icon a{
+	float:left;
+	font: 20px/24px "宋体";
+	color: #fff;
+	padding:16px 0px 0px 5px;
+}
+
+/*下侧商品区域样式*/
+.J_f .w .box_bd{
+	float:left;
+	height:250px;
+	width:1190px;
+	background-color:#fff;
+}
+.J_f .w .box_bd .J_sk_list_wrapper li{
+	float:left;
+	margin-top:12px;
+	margin-bottom:13px;
+	height:225px;
+	width:197.3px;
+	border-right: 1px #e7e7e7 solid;
+}
+.J_f .w .box_bd .J_sk_list_wrapper ul li a{
+	display: block;
+	width: 170px;
+	height:170px;
+	margin-left: 15px;
+	text-align: center;
+	margin-bottom: 11px;
+	position: relative;
+}
+.J_f .w .box_bd .J_sk_list_wrapper ul li.xiaochu{
+	border-right: 0px;
+}
+.J_f .w .box_bd .J_sk_list_wrapper ul li a img{
+	position: relative;
+	top: 12px;
+}
+.J_f .w .box_bd .J_sk_list_wrapper ul li a p{
+	text-align: left;
+	margin-top: 15px;
+	height: 28px;
+	line-height: 14px;
+	overflow: hidden;  /*溢出内容隐藏*/
+}
+.J_f .w .box_bd .J_sk_list_wrapper ul li p{
+	margin-bottom:13px;
+}
+.J_f .w .box_bd .J_sk_list_wrapper ul li p.price span.newPrice{
+	color:red;
+	margin-left:px;
+	float:left;
+}
+.J_f .w .box_bd .J_sk_list_wrapper ul li p.price span.newPrice i {
+	font-size: 15px;
+}.J_f .w .box_bd .J_sk_list_wrapper ul li p.price span.newPrice span{
+	font-size: 25px;
+	font-weight: bold;
+}
+.J_f .w .box_bd .J_sk_list_wrapper ul li  s.oldPrice{
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}

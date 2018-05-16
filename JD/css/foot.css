@@ -1,0 +1,134 @@
+.foot{
+	height:500px;
+	background-color: #eaeaea;
+}
+/*上面 多快好省部分样式*/
+.foot .foot_top {
+ height: 102px;
+ border-bottom: 1px #dedede solid;
+}
+.foot .foot_top .grid_c1{
+	height:42px;
+	width:1190px;
+	margin:0 auto;
+	padding:30px;
+}
+.foot .foot_top .grid_c1 ul{
+	height:42px;
+	width:1190px;
+}
+.foot .foot_top .grid_c1 ul li {
+	height:42px;
+	float:left;
+	font-weight: bold;
+	margin-left:120px;
+	font-size: 18px;
+	color: #444444;
+	line-height: 42px;
+}
+/*中间服务部分*/
+.foot .mod_help{
+	height:200px;
+	
+}
+.foot .mod_help .grid_c1{
+	height:160px;
+	width:1190px;
+	margin:0 auto;
+	padding-top:20px;
+	padding-bottom:19px;
+	border-bottom: 1px #dedede solid;
+}
+.foot .mod_help .grid_c1 .mod_help_list{
+	height:160px;
+	width:1190px;
+}
+.foot .mod_help .grid_c1 .mod_help_list .mod_help_nav{
+	float:left;
+	width:198px;
+}
+.foot .mod_help .grid_c1 .mod_help_list .mod_help_nav h5{
+	font: 14px/22px "微软雅黑";
+	font-weight: bold;
+	color: #666666;
+}
+.foot .mod_help .grid_c1 .mod_help_list .mod_help_nav ul li{
+	padding-top:5px;
+}
+.foot .mod_help .grid_c1 .mod_help_list .mod_help_nav ul li a{
+	color:#666;
+}
+.foot .mod_help .grid_c1 .mod_help_list .mod_help_cover{
+	float:left;
+	height:150px;
+	width:200px;
+}
+.foot .mod_help .grid_c1 .mod_help_list .mod_help_cover h5{
+	font: 14px/21px "微软雅黑";
+	text-align: center;
+	font-weight: bold;
+	color: #666666;
+	margin-bottom:15px;
+}
+.foot .mod_help .grid_c1 .mod_help_list .mod_help_cover .f1{
+	height:54px;
+	width:180px;
+	margin-left:10px;
+}
+.foot .mod_help .grid_c1 .mod_help_list .mod_help_cover .f2{
+	float:right;
+}
+.foot .mod_help .grid_c1 .mod_help_list .mod_help_nav ul li a:hover{
+	color:red;
+}
+.foot .mod_help .grid_c1 .mod_help_list a:hover{
+	color:red;
+}
+.foot .mod_copyright{
+	height:197px;
+}
+.foot .mod_copyright .grid_c1{
+	width:1190px;
+	height:180px;
+	margin:0 auto;
+	padding-top:17px;
+}
+.foot .mod_copyright .grid_c1 .mod_copyright_links{
+	height:18px;
+	width:1190px;
+	text-align:center;
+}
+.foot .mod_copyright .grid_c1 .mod_copyright_links span{
+	margin-left:5px;
+	margin-right:5px;
+}
+.foot .mod_copyright .grid_c1 .mod_copyright_links a{
+	color:#666666;
+}
+.foot .mod_copyright .grid_c1 .mod_copyright_info{
+	height:98px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+}
+.foot .mod_copyright .grid_c1 .mod_copyright_info p{
+	margin-top:5px;
+}
+.foot .mod_copyright .grid_c1 .mod_copyright_info span{
+	margin-left:5px;
+	margin-right:5px;
+}
+.foot .mod_copyright .grid_c1 .mod_copyright_auth{
+	height:37px;
+	
+}
+.foot .mod_copyright .grid_c1 .mod_copyright_auth ul{
+	margin-left:283px;
+}
+.foot .mod_copyright .grid_c1 .mod_copyright_auth ul li{
+	float:left;
+	width:60px;
+	height:32px;
+	padding-left:25px;
+	padding-right:25px;
+}

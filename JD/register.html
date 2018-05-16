@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>个人注册</title>
+<style>
+*{
+	margin:0px;
+	padding:0px;
+
+}
+.register_head{
+	height:110px;
+	box-shadow: 0px 0px 20px 0px #DCDCDC;
+}
+.register_head .register_head_all{
+	height:76px;
+	width:1210px;
+	margin:0px auto;
+}
+.register_head .register_head_all .logo img{
+	float:left;
+	margin-top:20px;
+}
+.register_head .register_head_all .logo span{
+	font:26px/50px "微软黑体";
+	font-weight: bold;
+	float:left;
+	margin-left:25px;
+	margin-top:35px;
+}
+.register_head .register_head_all .right{
+	float:right;
+	margin-top:50px;
+	font-weight: bold;
+}
+.register_head .register_head_all .right span{
+	color:#808080;
+}
+.register_head .register_head_all .right a{
+color:black;
+text-decoration:none;
+}
+.register_head .register_head_all .right a:hover{
+text-decoration:underline;
+}
+.register{
+	width:260px;
+	margin:0 auto;
+}
+.register p{
+	padding-top:30px;
+}
+
+</style>
+</head>
+<body>
+<div class="register_head">
+	<div class="register_head_all">
+		<div class="logo">
+		<a href="index.html"><img src="images/logo-201305-b.png" width="170" height="60"></a>
+		<span>欢迎注册</span>
+		</div>
+		<div class="right">
+			<span>已有账号？</span>
+			<a href="login.html">请登陆</a>
+		</div>
+	</div>
+</div>
+<div class="register">
+<form action='register.php' method='post'>
+	<p>用 户 名：<input type='text' name='user' /></p>
+	<p>密&nbsp;&nbsp;码：<input type='password' name='passwd1' /></p>
+	<p>确认密码：<input type='password' name='passwd2' /></p>
+	<p><tr><td colspan='2' class="button center">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp; <input type='submit' value='注册'/></td></tr></p>
+</div>
+</form>
+</body>
+</html>

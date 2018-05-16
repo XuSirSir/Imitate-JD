@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商品管理</title>
+<style>
+*{
+	margin:0px;
+	padding:0px;
+
+}
+body {
+ font-size: 12px;
+ font-family: "微软雅黑";
+ color: #999;
+ background-color: #f6f6f6;
+}
+.w{
+ width: 1190px;
+ margin: 0 auto;
+}
+li {
+ list-style: none;
+}
+a {
+ text-decoration: none;
+ color: #999;
+}
+.shortcut{
+	height:48px;
+	background-color: #e3e4e5;
+	border:1px solid black;
+}
+.shortcut .w{
+	height:48px;
+}
+.shortcut .w .fl{
+	float:left;
+}
+.shortcut .w .fl li{
+	float:left;
+	font: 45px/48px"微软雅黑";
+}
+.shortcut .w .fl li.ht{
+	font: 30px/48px"微软雅黑";
+	
+}
+.shortcut .w .fr{
+	float:right;
+	padding:0 150px 0 0;
+}
+.shortcut .w .fr li{
+	float:left;
+}
+.shortcut .w .fr li a{
+	font: 22px/48px"微软雅黑";
+}
+.shortcut .w .fr li a.red{
+	color:red;
+}
+.shortcut .w .fr li.spacer{
+	width:2px;
+	height:20px;
+	background-color: #cccccc; 
+	margin: 18px 15px 0 15px;
+}
+
+
+.fs .w{
+	height:650px;
+	border-right:1px solid black;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+}
+.fs .w .fs_col1{
+	float:left;
+	width:292px;
+	height:650px;
+	background-color: #6e6568;
+}
+.fs .w .fs_col1 li{
+	font: 30px/45px "微软雅黑";
+	text-align:center;
+	padding-top:45px;
+}
+.fs .w .fs_col1 li a:hover{
+	color:red;
+}
+.fs .w .words ul{
+	float:left;
+	padding:260px 0 0 150px;
+	
+}
+.fs .w .words li{
+	font: 30px/45px "微软雅黑";
+	padding-top:20px;
+}
+</style>
+</head>
+<body>
+<div class="shortcut">
+	<div class="w">
+		<ul class="fl">
+			<li>京东</li>
+			<li>·</li>
+			<li class="ht">商品管理系统</li>
+		</ul>
+		<ul class="fr">
+			<li class="fore1">
+			<a href="#" class="red">欢迎你，____</a>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore2">
+			<a href="#">前台首页</a>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore3">
+			<a href="#">退出登录</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="fs">
+	<div class="w">
+		<div class="fs_col1">
+			<ul>
+				<li>
+					<a href="#">后台首页</a>
+				</li>
+				<li>
+					<a href="product-add.html">商品添加</a>
+				</li>
+				 <li>
+					<a href="#">商品删除</a>
+				</li>
+				<li>
+					<a href="#">商品修改</a>
+				</li>
+				<li>
+					<a href="product-list.html">商品列表</a>
+				</li>
+			</ul>
+		</div>
+		<div class="words">
+			<ul>
+				<li>
+				后台首页
+				</li>
+				<li>
+				欢迎进入京东商城后台！请从左侧选择一个操作。
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>
